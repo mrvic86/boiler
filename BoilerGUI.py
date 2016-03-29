@@ -387,14 +387,14 @@ for j in range(0,MidFrameRows+1):
 
 # NAVIGATION BUTTONS
 
-imgWeek = PhotoImage(file = "week.png")
-imgWkd  = PhotoImage(file = "wkd.png")
-imgHome = PhotoImage(file = "home.png")
-imgSys  = PhotoImage(file = "gears.png")
-imgBack = PhotoImage(file = "back.png")
-imgAway = PhotoImage(file = "back.png")
-imgUp   = PhotoImage(file = "up.png")
-imgDown = PhotoImage(file = "down.png")
+imgWeek = PhotoImage(file = "icons/week.png")
+imgWkd  = PhotoImage(file = "icons/wkd.png")
+imgHome = PhotoImage(file = "icons/home.png")
+imgSys  = PhotoImage(file = "icons/gears.png")
+imgBack = PhotoImage(file = "icons/back.png")
+imgAway = PhotoImage(file = "icons/back.png")
+imgUp   = PhotoImage(file = "icons/up.png")
+imgDown = PhotoImage(file = "icons/down.png")
 
 imgWeek = imgWeek.subsample(10, 10)
 imgWkd  = imgWkd.subsample( 10, 10)
